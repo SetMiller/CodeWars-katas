@@ -2,14 +2,13 @@
 
 ## `My katas solution`
 
-### 03.03.2019
+### 13.03.2019
 
-  * [Check the exam](https://github.com/SetMiller/CodeWars-katas/tree/master/Katas/03.03.2019) - [8 kyu](https://www.codewars.com/kata/5a3dd29055519e23ec000074)
-  * [String Scramble](https://github.com/SetMiller/CodeWars-katas/tree/master/Katas/03.03.2019) - [7 kyu](https://www.codewars.com/kata/5822d89270ca28c85c0000f3)
+  * [Coding 3min: Virus in Apple](https://github.com/SetMiller/CodeWars-katas/tree/master/Katas/13.03.2019) - [`6 kyu`](https://www.codewars.com/kata/5700af83d1acef83fd000048)
+  
+### 12.03.2019
 
-### 05.03.2019
-
-  * [Ranking position](https://github.com/SetMiller/CodeWars-katas/tree/master/Katas/05.03.2019) - [7 kyu](https://www.codewars.com/kata/5c784110bfe2ef660cb90369)
+  * [Heroes of Might & Magic II: One-on-One](https://github.com/SetMiller/CodeWars-katas/tree/master/Katas/12.03.2019) - [`6 kyu`](https://www.codewars.com/kata/5b114e854de8651b6b000123)  
 
 ### 10.03.2019
 
@@ -17,10 +16,17 @@
   * [Tribonacci Sequence](https://github.com/SetMiller/CodeWars-katas/tree/master/Katas/10.03.2019) - [`6 kyu`](https://www.codewars.com/kata/556deca17c58da83c00002db)
   * [Playing with digits](https://github.com/SetMiller/CodeWars-katas/tree/master/Katas/10.03.2019) - [`6 kyu`](https://www.codewars.com/users/SetMiller/completed_solutions)
 
-### 12.03.2019
+### 05.03.2019
 
-  * [Heroes of Might & Magic II: One-on-One](https://github.com/SetMiller/CodeWars-katas/tree/master/Katas/12.03.2019) - [`6 kyu`](https://www.codewars.com/kata/5b114e854de8651b6b000123)
+  * [Ranking position](https://github.com/SetMiller/CodeWars-katas/tree/master/Katas/05.03.2019) - [7 kyu](https://www.codewars.com/kata/5c784110bfe2ef660cb90369)
 
-### 13.03.2019
+### 03.03.2019
 
-  * [Coding 3min: Virus in Apple](https://github.com/SetMiller/CodeWars-katas/tree/master/Katas/13.03.2019) - [`6 kyu`](https://www.codewars.com/kata/5700af83d1acef83fd000048)
+  * [Check the exam](https://github.com/SetMiller/CodeWars-katas/tree/master/Katas/03.03.2019) - [8 kyu](https://www.codewars.com/kata/5a3dd29055519e23ec000074)
+  * [String Scramble](https://github.com/SetMiller/CodeWars-katas/tree/master/Katas/03.03.2019) - [7 kyu](https://www.codewars.com/kata/5822d89270ca28c85c0000f3)
+
+
+
+
+
+
