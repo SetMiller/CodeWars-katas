@@ -2,6 +2,12 @@
 
 ## `My katas solution`
 
+### 06.05.2019
+
+  * [Bouncing Balls](https://github.com/SetMiller/CodeWars-katas/tree/master/Katas/06.05.2019) - [`6 kyu`](https://www.codewars.com/kata/5544c7a5cb454edb3c000047)
+  * [Who likes it?](https://github.com/SetMiller/CodeWars-katas/tree/master/Katas/06.05.2019) - [`6 kyu`](https://www.codewars.com/kata/5266876b8f4bf2da9b000362)
+  * [Create Phone Number](https://github.com/SetMiller/CodeWars-katas/tree/master/Katas/06.05.2019) - [`6 kyu`](https://www.codewars.com/kata/525f50e3b73515a6db000b83)
+
 ### 13.03.2019
 
   * [Coding 3min: Virus in Apple](https://github.com/SetMiller/CodeWars-katas/tree/master/Katas/13.03.2019) - [`6 kyu`](https://www.codewars.com/kata/5700af83d1acef83fd000048)
