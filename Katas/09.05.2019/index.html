@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  
+
+  <script>
+    
+  // Reverse a Number
+    // Вариант 1
+      function reverseNumber(n) {
+        function reverse(numb){
+          let abs = Math.abs(numb)
+          let word = String(abs)
+          const reverseWord = [...word].reverse().join('')
+          let result = Number(reverseWord)
+          return result
+        }
+        if (n >= 0 ){
+          let result = reverse(n)
+          return result
+        }
+        else {
+          let result = reverse(n)
+          return -1 * result
+        }
+      }
+
+    // Вариант 2
+      function reverseNumber(n, result = '0') {
+        function reverse(numb){
+          return Number([...String(Math.abs(numb))].reverse().join(''))
+        }
+        n >= 0 ? result = reverse(n) : result = -1 * reverse(n)
+          return result
+      }
+
+    // Вариант 3
+      function reverseNumber(n) {
+        return(n >= 0 ? 1 : -1) * Number([...String(Math.abs(n))].reverse().join(''))
+      }
+
+  // console.log(reverseNumber(123) == 321)
+  // console.log(reverseNumber(-123) == -321)
+  // console.log(reverseNumber(1000) == 1)
+  // console.log(reverseNumber(4321234) == 4321234)
+  // console.log(reverseNumber(5) == 5)
+  // console.log(reverseNumber(0) == 0)
+  // console.log(reverseNumber(98989898) == 89898989)
+// ******************************** ⚙️⚙️⚙️⚙️⚙️⚙️⚙️⚙️⚙️⚙️⚙️⚙️⚙️⚙️⚙️⚙️ ******************************** //
+
+  // Reverse words
+    // Вариант 1 -> выполнение функции за 1 проход
+      function reverseWords(str) {
+        let reversed = ''
+        let result = ''
+        for (let char of str){
+          if (char !== ' ')
+            reversed = char + reversed
+          else {
+            result += reversed + ' '
+            reversed = ''
+          }
+        }
+        return result + reversed
+      }
+
+    // Вариант 2 -> выполнение функции за множество проходов
+      // 1.
+      function reverseWord(word){
+        return word.split('').reverse().join('').split(' ').reverse().join(' ')
+      }
+
+      // 2.
+      function reverseWord(word){
+        return [...word].reverse().join('').split(' ').reverse().join(' ')
+      }
+
+      function reverseWords(str){
+        return str.split('  ').map(reverseWord).join('  ')
+      }
+
+    // Вариант 3 
+      function reverseWords(str, result = '') {
+        let reversed = ''
+        for (let char of str){
+          char !== ' ' ? reversed = char + reversed : (result += reversed + ' ', reversed = '')
+        }
+        return result + reversed
+      }
+
+    // Вариант 4
+      function reverseWords(str, result = '') {
+        let reversed = ''
+        Array.prototype.forEach.call(str, char => 
+          char !== ' ' ? reversed = char + reversed : (result += reversed + ' ', reversed = '')
+        )
+        return result + reversed
+      }
+
+    // Вариант 5
+      function reverseWords(str, reverseWord = '') {
+        return Array.prototype.reduce.call(str, (reverseStr, char) => {
+          return (char !== ' ' ? reverseWord = char + reverseWord : (reverseStr += reverseWord + ' ', reverseWord = ''), reverseStr)
+          }, '') + reverseWord
+      }
+
+      function reverseWords(str, reverseWord = '') {
+        return str.split("").reverse().join("").split(" ").reverse().join(" ")
+      }
+
+
+    console.log(reverseWords('The quick brown fox jumps over the lazy dog.') == 'ehT kciuq nworb xof spmuj revo eht yzal .god');
+    console.log(reverseWords('apple') == 'elppa');
+    console.log(reverseWords('a b c d') == 'a b c d');
+    console.log(reverseWords('double  spaced  words') == 'elbuod  decaps  sdrow');
+  </script>
+</body>
+</html>
