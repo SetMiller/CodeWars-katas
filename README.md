@@ -2,6 +2,10 @@
 
 ## `My katas solution`
 
+### 09.05.2019
+ * [Reverse a Number](https://github.com/SetMiller/CodeWars-katas/tree/master/Katas/09.05.2019) - [`7 kyu`](https://www.codewars.com/kata/555bfd6f9f9f52680f0000c5)
+ * [Reverse words](https://github.com/SetMiller/CodeWars-katas/tree/master/Katas/09.05.2019) - [`7 kyu`](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4)
+
 ### 06.05.2019
 
   * [Bouncing Balls](https://github.com/SetMiller/CodeWars-katas/tree/master/Katas/06.05.2019) - [`6 kyu`](https://www.codewars.com/kata/5544c7a5cb454edb3c000047)
